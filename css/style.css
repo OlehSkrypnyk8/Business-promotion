@@ -229,13 +229,26 @@ img {
 }
 
 .management-list {
-    
+    width: 100%;
+    max-width: 486px;
     
 }
 
 .management-item {}
 
-.management-title {}
+.management-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+    margin-top: 21px;
+
+}
+
+.management-title-span{
+    font-weight: 600;
+    font-size: 16px;
+     
+}
 
 .management-text {}
 
