@@ -813,3 +813,153 @@ img {
     font-size: 20px;
     color: #02897a;
 }
+
+/* footer */
+
+
+
+
+.footer {}
+
+
+.footer-container {
+    display: flex;
+    width: 1110px;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.container-logo {
+}
+
+.footer-logo {
+    display: flex;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    align-items: center;
+    line-height: 0.93;
+    color: #173a56;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.header-logo {
+    margin-bottom: 22px;
+}
+
+.header-logo-img {}
+
+.logo-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.logo-item {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-item-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-item-icon {
+    stroke: #02897A;
+}
+
+.container-review {}
+
+.review-list {
+    
+}
+
+.review-item {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
+}
+
+.review-item-text {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.container-document {}
+
+.document-list {
+    margin-bottom: 8px;
+}
+
+.document-item {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
+}
+
+.document-item-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 8px;
+    }
+
+
+.feedback-container {
+    width: 325px;
+}
+
+.feedback-list {}
+.feedback-text {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+.feedback-icon-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #bcd0e5;
+    align-items: center;
+    border-radius: 4px;
+    width: 325px;
+    height: 48px;
+    margin-bottom: 25px;
+}
+.feedback-item {}
+
+.feedback-icon {}
+
+.feedback-btn {
+    font-weight: 700;
+    border-radius: 4px;
+    width: 178px;
+    height: 53px;
+    background: #02897a;
+    color: #fff;
+    border: none; 
+}
+
+.footer-text-end {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #22343d;
+    padding-bottom: 100px;
+}
