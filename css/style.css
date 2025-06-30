@@ -371,7 +371,8 @@ img {
 
 }
 .customer-icon {
-    
+    stroke: #fff;
+    fill: #fff;
 }
 
 .customer-text {
@@ -872,6 +873,7 @@ img {
 
 .logo-item-icon {
     stroke: #02897A;
+    fill: #fff;
 }
 
 .container-review {}
@@ -940,10 +942,16 @@ img {
     width: 325px;
     height: 48px;
     margin-bottom: 25px;
+    gap: 12px;
 }
 .feedback-item {}
 
-.feedback-icon {}
+.feedback-icon {
+    stroke: #02897A;
+    fill: #02897A;
+    margin-left: 12px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 
 .feedback-btn {
     font-weight: 700;
