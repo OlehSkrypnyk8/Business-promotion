@@ -932,26 +932,49 @@ img {
     font-size: 20px;
     line-height: 1.5;
     color: #22343d;
+    width: 280px;
 }
 .feedback-icon-container{
     display: flex;
     flex-direction: row;
-    border: 1px solid #bcd0e5;
     align-items: center;
-    border-radius: 4px;
     width: 325px;
     height: 48px;
     margin-bottom: 25px;
-    gap: 12px;
 }
-.feedback-item {}
+.feedback-form {
+    display: flex;
+    align-items: center;
+    width: 325px;
+    height:48px;
+    position: relative;
+}
+.feedback-input {
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+}
+.feedback-input::placeholder {
+    line-height: 1.75;
+    color: #02897a;
+}
+.feedback-input:focus {
+    outline: none;
+    border-color: red;
+}
 
 .feedback-icon {
     stroke: #02897A;
     fill: #02897A;
-    margin-left: 12px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
 }
+
+
 
 .feedback-btn {
     font-weight: 700;
