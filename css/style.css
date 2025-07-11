@@ -994,3 +994,78 @@ img {
     color: #22343d;
     padding-bottom: 100px;
 }
+
+
+
+/* test */
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 210px;
+    justify-content: center;
+}
+.checkbox {
+    display: none;
+    
+}
+
+.checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkmark {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #bcd0e5;
+    box-shadow: #02897A 0 0 4px rgba(76, 175, 80, 0.6);
+    border-radius: 4px;
+    margin-right: 8px;
+    position: relative;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    box-shadow: none;
+    
+}
+
+/* Галочка */
+.checkmark::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    top: 4px;
+    transform: translateX(-50%);
+    width: 12px;
+    height: 24px;
+    border: solid #fff;
+    border-width: 0 5px 5px 0;
+    transform: scale(0) rotate(45deg);
+    transition: transform 0.3s ease;
+    transform-origin: bottom left;
+}
+
+/* Hover — ефект при наведенні */
+.checkbox-label:hover .checkmark {
+    border-color: #4caf50;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.6);
+    /* зелена тінь */
+}
+
+/* Active — при натисканні */
+.checkbox-label:active .checkmark {
+    transform: scale(0.95);
+}
+
+/* Checked — активний стан */
+.checkbox:checked+.checkbox-label .checkmark {
+    border: none;
+    background-color: #4caf50;
+    box-shadow: 0 0 6px rgba(76, 175, 80, 0.8);
+}
+
+.checkbox:checked+.checkbox-label .checkmark::after {
+    transform: scale(1) rotate(45deg);
+}
